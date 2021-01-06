@@ -11,10 +11,10 @@ La API provee los servicios para registrar a un usuario junto con sus datos pers
 ```
 // Datos personales del usuario
 {
-  "firstName": "Bautista",
-  "lastName": "Carpintero",
+  "firstName": "Natalia",
+  "lastName": "Severino",
   "mail": "--------@gmail.com",
-  "username": "BautistaCRP",
+  "username": "nati",
   "address": {
     "department": "----------",
     "number": ---,
