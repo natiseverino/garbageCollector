@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <!-- ************************************************************************************************ -->
+
+
+            <!-- Bottles -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Botellas: "
+                        android:textSize="24dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="60"/>
+
+
+                    <Button
+                        android:id="@+id/bottles_button_sub"
+                        android:layout_width="48dp"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_remove_black_24dp"
+                        android:drawableTint="@color/colorWhite"
+                        android:layout_gravity="center"
+                        />
+                    <TextView
+                        android:id="@+id/bottles_text_view_counter"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        
+                        android:textColor="@color/colorAccent"
+                        android:textSize="40dp"
+                        android:maxLines="1"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeMinTextSize="16dp"
+                        app:autoSizeMaxTextSize="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="40"
+                        android:textAlignment="center"
+                        tools:ignore="MissingPrefix" />
+
+                    <Button
+                        android:id="@+id/bottles_button_add"
+                        android:layout_width="48dp"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_add_black_24dp"
+                        android:drawableTint="@color/colorWhite"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="4dp"
+                    android:background="?android:attr/listDivider"
+                    />
+
+            <!-- Paperboard -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Papeles: "
+                        android:textSize="24dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="60"/>
+
+
+                    <Button
+                        android:id="@+id/paperboard_button_sub"
+                        android:layout_width="48dp"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_remove_black_24dp"
+                        android:drawableTint="@color/colorWhite"
+                        android:layout_gravity="center"
+                        />
+                    <TextView
+                        android:id="@+id/paperboard_text_view_counter"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        
+                        android:textColor="@color/colorAccent"
+                        android:textSize="40dp"
+                        android:maxLines="1"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeMinTextSize="16dp"
+                        app:autoSizeMaxTextSize="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="40"
+                        android:textAlignment="center"
+                        tools:ignore="MissingPrefix" />
+
+                    <Button
+                        android:id="@+id/paperboard_button_add"
+                        android:layout_width="48dp"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_add_black_24dp"
+                        android:drawableTint="@color/colorWhite"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="4dp"
+                    android:background="?android:attr/listDivider"
+                    />
+
+            <!-- Glass -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Vidrios: "
+                        android:textSize="24dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="60"/>
+
+
+                    <Button
+                        android:id="@+id/glass_button_sub"
+                        android:layout_width="48dp"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_remove_black_24dp"
+                        android:drawableTint="@color/colorWhite"
+                        android:layout_gravity="center"
+                        />
+                    <TextView
+                        android:id="@+id/glass_text_view_counter"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        
+                        android:textColor="@color/colorAccent"
+                        android:textSize="40dp"
+                        android:maxLines="1"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeMinTextSize="16dp"
+                        app:autoSizeMaxTextSize="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="40"
+                        android:textAlignment="center"
+                        tools:ignore="MissingPrefix" />
+
+                    <Button
+                        android:id="@+id/glass_button_add"
+                        android:layout_width="48dp"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_add_black_24dp"
+                        android:drawableTint="@color/colorWhite"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="4dp"
+                    android:background="?android:attr/listDivider"
+                    />
+
+            <!-- Cans -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Latas: "
+                        android:textSize="24dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="60"/>
+
+
+                    <Button
+                        android:id="@+id/cans_button_sub"
+                        android:layout_width="48dp"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_remove_black_24dp"
+                        android:drawableTint="@color/colorWhite"
+                        android:layout_gravity="center"
+                        />
+                    <TextView
+                        android:id="@+id/cans_text_view_counter"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        
+                        android:textColor="@color/colorAccent"
+                        android:textSize="40dp"
+                        android:maxLines="1"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeMinTextSize="16dp"
+                        app:autoSizeMaxTextSize="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="40"
+                        android:textAlignment="center"
+                        tools:ignore="MissingPrefix" />
+
+                    <Button
+                        android:id="@+id/cans_button_add"
+                        android:layout_width="48dp"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_add_black_24dp"
+                        android:drawableTint="@color/colorWhite"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="4dp"
+                    android:background="?android:attr/listDivider"
+                    />
+
+            <!-- Tetrabriks -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Tetrabriks: "
+                        android:textSize="24dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="60"/>
+
+
+                    <Button
+                        android:id="@+id/tetrabriks_button_sub"
+                        android:layout_width="48dp"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_remove_black_24dp"
+                        android:drawableTint="@color/colorWhite"
+                        android:layout_gravity="center"
+                        />
+                    <TextView
+                        android:id="@+id/tetrabriks_text_view_counter"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        
+                        android:textColor="@color/colorAccent"
+                        android:textSize="40dp"
+                        android:maxLines="1"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeMinTextSize="16dp"
+                        app:autoSizeMaxTextSize="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="40"
+                        android:textAlignment="center"
+                        tools:ignore="MissingPrefix" />
+
+                    <Button
+                        android:id="@+id/tetrabriks_button_add"
+                        android:layout_width="48dp"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_add_black_24dp"
+                        android:drawableTint="@color/colorWhite"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="4dp"
+                    android:background="?android:attr/listDivider"
+                    />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                ></LinearLayout>
+
+            <!-- ************************************************************************************************ -->
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/submission_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_recycling_symbol"
+        android:tint="@color/colorWhite"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        />
+</RelativeLayout>

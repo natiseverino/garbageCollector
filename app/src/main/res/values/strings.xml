@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Garbage Collector</string>
+    <string name="base_url">http://localhost:3333/</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+</resources>

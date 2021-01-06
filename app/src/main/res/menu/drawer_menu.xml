@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group
+        android:id="@+id/drawer_menu_group_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_actual"
+            android:icon="@drawable/recycling_bin_with_man"
+            android:title="Reciclados Actuales" />
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/history"
+            android:title="Historial" />
+    </group>
+
+    <group android:id="@+id/drawer_menu_group_2">
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Cerrar Sesión" />
+    </group>
+
+</menu>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="16dp"
+    >
+
+    <!--  bottles=0, tetrabriks=0, glass=0, paperboard=0, cans=3, date='2019-05-04' -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_bullet_point_24dp"
+            android:scaleType="fitXY"
+            android:layout_margin="4dp"
+            android:tint="@color/colorPink_300"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Botellas: "
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/row_submission_bottles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_bullet_point_24dp"
+            android:scaleType="fitXY"
+            android:layout_margin="4dp"
+            android:tint="@color/colorLightBlue_300"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Papeles: "
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/row_submission_paperboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_bullet_point_24dp"
+            android:scaleType="fitXY"
+            android:layout_margin="4dp"
+            android:tint="@color/colorGreen_400"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vidrios: "
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/row_submission_glass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_bullet_point_24dp"
+            android:scaleType="fitXY"
+            android:layout_margin="4dp"
+            android:tint="@color/colorAmber_300"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latas: "
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/row_submission_cans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_bullet_point_24dp"
+            android:scaleType="fitXY"
+            android:layout_margin="4dp"
+            android:tint="@color/colorDeepOrange_300"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tetrabriks: "
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/row_submission_tetrabriks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_bullet_point_24dp"
+            android:scaleType="fitXY"
+            android:layout_margin="4dp"
+            android:tint="@color/colorGrey_600"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha: "
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/row_submission_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2019-05-04"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="?android:attr/listDivider"
+        />
+
+
+</LinearLayout>
